@@ -53,7 +53,7 @@ CREATE TABLE `customers` (
 
 INSERT INTO `customers` (`id`, `Name`, `PhoneNumber`) VALUES
 (24, 'Shahzaib', '7070564601'),
-(23, 'Rashid Makki', '7070564603'),
+(23, 'Shrirang Patil', '7070564603'),
 (25, 'Shadab', '9818977363');
 
 -- --------------------------------------------------------

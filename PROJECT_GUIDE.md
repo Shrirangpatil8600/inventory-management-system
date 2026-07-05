@@ -30,7 +30,7 @@ The system features a clean, borderless custom UI with smooth transitions and le
 Here is a guide to the project layout and the role of key files:
 
 ```text
-inventory-management-system-main/
+inventory-management-system/
 ├── database/                       # Database scripts
 │   └── inventory_management_system.sql # MySQL SQL Dump containing schema, tables, and seed data
 ├── pom.xml                         # Maven project configuration (dependencies, shade plugins)
@@ -176,10 +176,10 @@ Follow these steps to deploy and run the project locally on your machine.
 
 ### Step 2: Set Up Database
 1.  Open your MySQL command-line or GUI workbench client.
-2.  Execute the database dump script [inventory_management_system.sql](file:///c:/Users/Gaurav%20Gawali/Documents/GitHub/inventory-management-system-main/database/inventory_management_system.sql) to create the schema and seed mock values.
+2.  Execute the database dump script [inventory_management_system.sql](file:///c:/Users/Shrirang%20Patil/Documents/GitHub/inventory-management-system/database/inventory_management_system.sql) to create the schema and seed mock values.
 
 ### Step 3: Configure Database Settings
-Open [application.properties](file:///c:/Users/Gaurav%20Gawali/Documents/GitHub/inventory-management-system-main/src/main/resources/application.properties) and update variables to match your local database settings:
+Open [application.properties](file:///c:/Users/Shrirang%20Patil/Documents/GitHub/inventory-management-system/src/main/resources/application.properties) and update variables to match your local database settings:
 ```properties
 javafx.jdbc.driver=com.mysql.cj.jdbc.Driver
 javafx.datasource.url=jdbc:mysql://127.0.0.1:3306/inventory_management_system
